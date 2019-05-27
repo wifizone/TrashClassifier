@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89E33B3222903F3400353B0B /* TrashClassifierWithLabels.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 89E33B3122903F3400353B0B /* TrashClassifierWithLabels.mlmodel */; };
+		89E33B342290458500353B0B /* TrashClassifierWithLabels88acc.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 89E33B332290458500353B0B /* TrashClassifierWithLabels88acc.mlmodel */; };
+		89E33B3622904D2A00353B0B /* TrashClassifier79accNotAugmented.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 89E33B3522904D2A00353B0B /* TrashClassifier79accNotAugmented.mlmodel */; };
 		A64C8B4C2290135B00BF3BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64C8B4B2290135B00BF3BAC /* AppDelegate.swift */; };
 		A64C8B4E2290135B00BF3BAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64C8B4D2290135B00BF3BAC /* ViewController.swift */; };
 		A64C8B512290135B00BF3BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64C8B4F2290135B00BF3BAC /* Main.storyboard */; };
 		A64C8B532290135C00BF3BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A64C8B522290135C00BF3BAC /* Assets.xcassets */; };
 		A64C8B562290135C00BF3BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A64C8B542290135C00BF3BAC /* LaunchScreen.storyboard */; };
+		A64C8B5E229015F000BF3BAC /* TrashClassifier 820 nocups.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A64C8B5D229015F000BF3BAC /* TrashClassifier 820 nocups.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89E33B3122903F3400353B0B /* TrashClassifierWithLabels.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TrashClassifierWithLabels.mlmodel; sourceTree = "<group>"; };
+		89E33B332290458500353B0B /* TrashClassifierWithLabels88acc.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TrashClassifierWithLabels88acc.mlmodel; sourceTree = "<group>"; };
+		89E33B3522904D2A00353B0B /* TrashClassifier79accNotAugmented.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TrashClassifier79accNotAugmented.mlmodel; sourceTree = "<group>"; };
 		A64C8B482290135B00BF3BAC /* TrashClassifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrashClassifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A64C8B4B2290135B00BF3BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A64C8B4D2290135B00BF3BAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		A64C8B522290135C00BF3BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A64C8B552290135C00BF3BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A64C8B572290135C00BF3BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A64C8B5D229015F000BF3BAC /* TrashClassifier 820 nocups.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "TrashClassifier 820 nocups.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 		A64C8B4A2290135B00BF3BAC /* TrashClassifier */ = {
 			isa = PBXGroup;
 			children = (
+				89E33B3522904D2A00353B0B /* TrashClassifier79accNotAugmented.mlmodel */,
+				89E33B332290458500353B0B /* TrashClassifierWithLabels88acc.mlmodel */,
+				89E33B3122903F3400353B0B /* TrashClassifierWithLabels.mlmodel */,
 				A64C8B4B2290135B00BF3BAC /* AppDelegate.swift */,
 				A64C8B4D2290135B00BF3BAC /* ViewController.swift */,
 				A64C8B4F2290135B00BF3BAC /* Main.storyboard */,
+				A64C8B5D229015F000BF3BAC /* TrashClassifier 820 nocups.mlmodel */,
 				A64C8B522290135C00BF3BAC /* Assets.xcassets */,
 				A64C8B542290135C00BF3BAC /* LaunchScreen.storyboard */,
 				A64C8B572290135C00BF3BAC /* Info.plist */,
@@ -136,6 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A64C8B4E2290135B00BF3BAC /* ViewController.swift in Sources */,
+				89E33B342290458500353B0B /* TrashClassifierWithLabels88acc.mlmodel in Sources */,
+				89E33B3222903F3400353B0B /* TrashClassifierWithLabels.mlmodel in Sources */,
+				89E33B3622904D2A00353B0B /* TrashClassifier79accNotAugmented.mlmodel in Sources */,
+				A64C8B5E229015F000BF3BAC /* TrashClassifier 820 nocups.mlmodel in Sources */,
 				A64C8B4C2290135B00BF3BAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
